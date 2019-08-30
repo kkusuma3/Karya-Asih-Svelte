@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset='utf8'>
+	<meta name='viewport' content='width=device-width'>
+
+	<title>Karya Asih | Jakarta Cleaning Service since 1989</title>
+
+	<link rel='icon' type='image/png' href='/images/logo_transparent.png'>
+	<link rel='stylesheet' href='/global.css'>
+	<link rel='stylesheet' href='/bundle.css'>
+	<link rel="stylesheet" href="extra.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+	<script defer src='/bundle.js'></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<script>
+		$(document).ready(function(){
+			let headerHeight = $('.navbar-fixed').outerHeight(); // Target your header navigation here
+
+			$('.parallax').parallax();
+
+			// jQuery Scroll effect
+			function scrollToSection(event) {
+				event.preventDefault();
+				let $section = $($(this).attr('href')); 
+				$('html, body').animate({
+					scrollTop: $section.offset().top - headerHeight
+				}, 700);
+			}
+			$('[data-scroll]').on('click', scrollToSection);
+		});
+	</script>
+</body>
+</html>
