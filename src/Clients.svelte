@@ -61,6 +61,7 @@
     .card {
         width: 20vw;
         border-radius: 15px;
+        margin: 1em;
     }
     .card:hover{
         box-shadow: 0px 11px 51px 3px rgba(35,68,141,0.5);

@@ -1,6 +1,6 @@
 <script>
-    const imgCall = '/images/call.svg';
-    const imgEmail = '/images/email.svg';
+    const imgCall = '/images/Call.svg';
+    const imgEmail = '/images/Email.svg';
     const imgLocation = '/images/Location.svg';
     const contact = [
         {
