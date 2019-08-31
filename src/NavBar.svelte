@@ -23,6 +23,9 @@
 			max-width: 15vw;
 		}
 	}
+	.imgLogo {
+		padding: 0.2em 0;
+	}
 	.homeTab, .homeTabContact {
 		color: rgba(35, 68, 141, 1);
 		font-size: 1.2rem;
