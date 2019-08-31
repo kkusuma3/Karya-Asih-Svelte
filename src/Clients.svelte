@@ -58,10 +58,27 @@
         font-size: 3em;
         color: black;
     }
+
+    /* Optimizing cards for smaller screens */
+    @media (max-width: 600px) {
+        .card {
+            width: 80vw;
+            border-radius: 15px;
+        }
+    }
+    @media (min-width: 601px) {
+        .card {
+            width: 50vw;
+            margin: 1em; 
+        }
+    }
+    @media (min-width: 800px) {
+        .card {
+            width: 20vw;
+        }
+    }
     .card {
-        width: 20vw;
         border-radius: 15px;
-        margin: 1em;
     }
     .card:hover{
         box-shadow: 0px 11px 51px 3px rgba(35,68,141,0.5);

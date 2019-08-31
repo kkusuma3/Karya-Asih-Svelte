@@ -12,11 +12,16 @@
 	nav {
 		background-color: white;
 	}
+	@media (max-width: 600px) {
+        .imgLogo {
+			width: 50vw;
+			padding: 0.2em 0;
+		}
+    }
 	.imgLogo {
 		max-width: 15vw;
-		padding: 0.2em 0;
 	}
-	.homeTab,.homeTabContact {
+	.homeTab, .homeTabContact {
 		color: rgba(35, 68, 141, 1);
 		font-size: 1.2rem;
 		border-bottom: 2px solid transparent;
@@ -35,7 +40,7 @@
 <div class="navbar-fixed">
 	<nav>
 		<div class="row">
-			<a data-scroll href="#home" class="brand-logo col s3 push-s1"><img class="imgLogo" src={imgLogo} alt = 'logo'></a>
+			<a data-scroll href="#home" class="brand-logo center col s12 l3 offset-s2 push-l1"><img class="imgLogo" src={imgLogo} alt = 'logo'></a>
 			<ul class="right hide-on-med-and-down col s7 offset-s1">
 				<li class="col s3">
 					<a data-scroll href="#services" class="center homeTab">Services</a>

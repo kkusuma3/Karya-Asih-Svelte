@@ -41,6 +41,8 @@
     }
     a {
         text-decoration: none;
+        margin-top: 0.2em;
+        margin-bottom: 1em;
     }
     .fontContent {
         font-size: 1.2em;
@@ -51,7 +53,7 @@
     <h3 class="center">Tunggu apalagi? Hubungi Kami!</h3>
     <div class="row">
         {#each contact as con}
-        <div class="col s4 center flexColumn">
+        <div class="col s12 m6 l4 center flexColumn">
             <img class="imgContactUs" src={con.img} alt="Phone Call Image">
             <p class="fontContent">{con.content}</p>
             <a href={con.link} class="waves-effect waves-light btn" target="_blank">

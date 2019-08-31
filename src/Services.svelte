@@ -49,7 +49,6 @@
     }
     .cardService {
         width: 90%;
-        margin: 1em 5em;
         padding: 1em;
     }
     .imageContainer {
@@ -75,7 +74,7 @@
 <div id="services" class="column bgGray fontPrimary">
     <div class="row cardService">
         <div class="row">
-            <div class="col s6 push-s1 flexColumn">
+            <div class="col s12 l6 push-l1 flexColumn">
                 <h5><strong>{services[0].title}</strong></h5>
                 <h6>{services[0].description}</h6>
                 <ul>
@@ -84,13 +83,13 @@
                     {/each}
                 </ul>
             </div>
-            <img class="col s3 push-s2 imageContainer" src={services[0].image} alt="something">
+            <img class="col s8 l3 push-l2 imageContainer" src={services[0].image} alt="something">
         </div>
     </div>
     <div class="row cardService">
         <div class="row">
-            <img class="col s3 push-s1 imageContainer" src={services[1].image} alt="something">
-            <div class="col s7 push-s2 flexColumn">
+            <img class="col s8 l3 push-l1 imageContainer" src={services[1].image} alt="something">
+            <div class="col s12 l7 push-l2 flexColumn">
                 <h5><strong>{services[1].title}</strong></h5>
                 <h6>{services[1].description}</h6>
                 <p class="vr">{services[1].content}</p>

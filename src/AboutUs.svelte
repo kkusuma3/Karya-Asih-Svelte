@@ -70,17 +70,17 @@
 <div id="about" class="column section">
     <h4>About Us</h4>
     <div class="row section">
-        <div class="col s6">
+        <div class="col s12 m6">
             <p> Sejak berdiri, Karya Asih telah membuktikan dirinya sebagai perusahaan yang berpengalaman di bidang Cleaning Services dan Busines Support Services untuk perkantoran, pabrik, dan pusat perbelanjaan. Berbagai apresiasi telah kami dapatkan dalam melayani beragam mitra kami, mulai dari perusahaan berskala nasional hingga perusahaan internasional.</p>
             <p>Bukan hanya pengalaman, Karya Asih dipilih menjadi mitra oleh berbagai perusahaan terkemuka karena memiliki sistem dan budaya perusahaan terbaik di bidangnya.</p>
         </div>
-        <div class="col s3 push-s2">
+        <div class="col s12 m3 push-m2">
             <img src={logo} alt="Karya asih logo" class="imageLogo">
         </div>
     </div>
     <div class="row section">
         {#each pillars as pillar}
-            <div class="col s4 cardPillar">
+            <div class="col s12 l4 cardPillar">
                 <img class="imgPillar" src={pillar.icon} alt="Pillar Karya Asih">
                 <p class="fontPillarTitle">{pillar.title}</p>
                 <p class="fontPillarDesc">{pillar.description}</p>
@@ -89,12 +89,14 @@
     </div>
     <div class="row section">
         {#each visiMisi as vm}
-            <div class="col s2">
-                <h4>{vm.title}</h4>
-            </div>
-            <div class="col s10">
-                <div class="vl">
-                    <p class="fontVMDesc">{vm.description}</p>
+            <div class="row">
+                <div class="col s6 l2">
+                    <h4>{vm.title}</h4>
+                </div>
+                <div class="col s12 l10">
+                    <div class="vl">
+                        <p class="fontVMDesc">{vm.description}</p>
+                    </div>
                 </div>
             </div>
         {/each }
