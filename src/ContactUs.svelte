@@ -30,9 +30,16 @@
     .column {
         padding: 1vh 10vw;
     }
-    .imgContactUs{
-        width: 15vw;
-        border-radius: 15px;
+    
+    @media (max-width: 600px) {
+        .imgContactUs{
+            width: 40vw;
+        }
+    }
+    @media (min-width: 601px) {
+        .imgContactUs{
+            width: 15vw;
+        }
     }
     .btn {
         background-color: rgba(35, 68, 141, 1);
