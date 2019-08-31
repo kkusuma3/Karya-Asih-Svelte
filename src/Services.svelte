@@ -7,7 +7,7 @@
             title: 'Cleaning Services',
             description: 'Jasa cleaning service spesialis langsung ke kantor anda.',
             content : [
-                'Layanan Terpadu yang meliputi pembersihan lantai, langit-langit,dinding, toilet, hingga permbersihan karpet, marmer dan coating vynil.',
+                'Layanan Terpadu yang meliputi pembersihan lantai, langit-langit,dinding, toilet, hingga permbersihan karpet, marmer dan coating vinyl.',
                 'Layanan Pembersihan Kaca Gedung dan Gondola.',
                 'Layanan Pertamanan berupa pemeliharaan, perawatan, dan kebersihan taman'
             ],
