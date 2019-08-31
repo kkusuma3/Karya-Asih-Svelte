@@ -106,7 +106,7 @@
         <h3 class="center">Dipercaya Oleh</h3>
         <div class="section flexRow">
             {#each clients as client}
-                <a href={client.link} target="_blank">
+                <a href={client.link} rel="noopener" target="_blank">
                      <div class="card">
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="imgClient" src={client.imageSrc} alt="Company logo">
