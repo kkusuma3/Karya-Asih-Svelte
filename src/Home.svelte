@@ -42,7 +42,7 @@
     <div class="parallax-container center valign-wrapper">
             <div class="row">
             <div class="col s12 white-text">
-                <h2 class="white-text teal-text lighten-2">Membersihkan <strong>kantor anda</strong> tanpa <strong>masalah</strong></h2>
+                <h2 class="white-text teal-text lighten-2">Penyedia <strong>Layanan Kebersihan</strong> Terpadu</h2>
                 <h4>Ahli Cleaning Services daerah Jakarta sejak 1989</h4>
                 <a data-scroll class="waves-effect waves-light btn-large lighten-2" href="#contact">Daftar Sekarang</a>
             </div>

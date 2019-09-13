@@ -24,7 +24,7 @@
         },
         {
             title: 'Sunter Indah Permai',
-            imageSrc: '/images/clients/bina.png',
+            imageSrc: '/images/clients/sip.jpg',
             link: 'http://www.ptsip.co.id',
             address: 'GRHA SIP, Jl. Danau Indah Raya C2 No. 4',
             since: '2012'

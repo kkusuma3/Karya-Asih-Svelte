@@ -3,17 +3,17 @@
     const pillars = [
         {
             'title' : 'Fokus',
-            'description' : 'Sejak berdiri, Karya Asih selalu mengutamakan bidang Cleaning Service dan Business Suport Services sehingga lebih berpengalaman dan spesialis.',
-            'icon' : '/images/img-focus.jpg'
+            'description' : 'Sejak berdiri, selalu mengutamakan bidang Cleaning Service dan Business Support Services sehingga lebih berpengalaman dan spesialis.',
+            'icon' : '/images/img-cleaning.jpg'
         },
         {
             'title' : 'Kompetitif',
-            'description' : 'Karya Asih mampu bersaing secara kualitas dan harga untuk sumber daya manusia, sarana dan perlengkapan.',
-            'icon' : '/images/img-competitive.jpg'
+            'description' : 'Mampu bersaing secara kualitas dan harga untuk sumber daya manusia, sarana dan perlengkapan.',
+            'icon' : '/images/img-kompetitif.jpg'
         },
         {
             'title' : 'Handal',
-            'description' : 'Karya Asih didukung tenaga kerja yang terlatih dan professional sesuai standar yang diinginkan.',
+            'description' : 'Didukung tenaga kerja yang terlatih dan professional sesuai standar yang diinginkan.',
             'icon' : '/images/img-handal.jpg'
         }
     ]
@@ -43,7 +43,9 @@
     }
     .imgPillar {
         border-radius: 15px;
+        width: 100%;
         max-width: calc(100% - 1em);
+        object-fit: cover;
         height: 35vh;
     }
     .fontPillarTitle {
@@ -71,8 +73,13 @@
     <h4>About Us</h4>
     <div class="row section">
         <div class="col s12 m6">
-            <p> Sejak berdiri, Karya Asih telah membuktikan dirinya sebagai perusahaan yang berpengalaman di bidang Cleaning Services dan Busines Support Services untuk perkantoran, pabrik, dan pusat perbelanjaan. Berbagai apresiasi telah kami dapatkan dalam melayani beragam mitra kami, mulai dari perusahaan berskala nasional hingga perusahaan internasional.</p>
-            <p>Bukan hanya pengalaman, Karya Asih dipilih menjadi mitra oleh berbagai perusahaan terkemuka karena memiliki sistem dan budaya perusahaan terbaik di bidangnya.</p>
+            <p> Sejak berdiri, kami telah membuktikan diri sebagai perusahaan yang berpengalaman di
+            bidang Cleaning Services dan Busines Support Services untuk kantor, pabrik, sekolah,
+            dan pusat perbelanjaan. Berbagai apresiasi telah kami dapatkan dalam melayani
+            beragam mitra kami, mulai dari perusahaan berskala nasional hingga perusahaan
+            internasional.</p>
+            <p>Bukan hanya pengalaman, kami dipilih menjadi mitra oleh berbagai perusahaan
+            terkemuka karena memiliki sistem dan budaya perusahaan terbaik di bidangnya.</p>
         </div>
         <div class="col s12 m3 push-m2">
             <img src={logo} alt="Karya asih logo" class="imageLogo">

@@ -7,17 +7,18 @@
             title: 'Cleaning Services',
             description: 'Jasa cleaning service spesialis langsung ke kantor anda.',
             content : [
-                'Layanan Terpadu yang meliputi pembersihan lantai, langit-langit,dinding, toilet, hingga permbersihan karpet, marmer dan coating vinyl.',
-                'Layanan Pembersihan Kaca Gedung dan Gondola.',
-                'Layanan Pertamanan berupa pemeliharaan, perawatan, dan kebersihan taman'
+                'Pembersihan lantai, dinding, hingga bagian eksterior gedung',
+                'Pembersihan baik harian maupun berkala hingga yang khusus meliputi carpet cleaning, marmer crystallization, vynil coating',
+                'Pembersihan kaca gedung/gondola',
+                'Pertamanan meliputi pemeliharaan, perawatan, dan kebersihan taman'
             ],
             image: imgCleaning
         },
         {
             icon: 'work',
             title: 'Business Support Services',
-            description: 'Jasa bantuan menyediakan tenaga kerja tambahan untuk meningkatan produktifitas.',
-            content : 'Untuk meningkatkan efisiensi dan efektifitas kinerja perusahaan anda, Karya Asih menawarkan Business Support Services dengan menyediakan tenaga terampil, terdidik, dan berintegritas tinggi untuk kebutuhan operator telpon, messenger, office boy / tea girls, mailroom, pantry services, locker services, factory helper, production helper, meeting room services, dan lain-lain.',
+            description: 'Layanan penyediaan tenaga kerja',
+            content : 'Penyediaan tenaga kerja terampil, terdidik, dan berintegritas tinggi untuk kebutuhan operator telpon, messenger, office boy/tea girls, mailroom, pantry services, locker services, factory helper, meeting room services, dan lain-lain untuk meningkatkan efisiensi dan effektifitas kinerja perusahaan pelanggan.',
             image: imgPhoto
         }
     ]

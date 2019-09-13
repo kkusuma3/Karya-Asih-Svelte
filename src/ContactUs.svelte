@@ -4,21 +4,21 @@
     const imgLocation = '/images/Location.svg';
     const contact = [
         {
-            'title': 'Telepon Kami',
+            'title': 'Telpon',
             'content': '(021) 452-8035',
             'img': imgCall,
             'icon': 'call',
             'link': 'tel:021-452-8035',
         },
         {
-            'title': 'Email Kami',
+            'title': 'Email',
             'content': 'hendra@karya-asih.com',
             'img': imgEmail,
             'icon': 'email',
             'link': 'mailto:hendra@karya-asih.com'
         },
         {
-            'title': 'Kunjungi Kantor Kami',
+            'title': 'Kantor',
             'content': 'Jl. Raya Kelapa Hibrida QK 1/17 Kelapa Gading, Jakarta 14240',
             'img': imgLocation,
             'icon': 'directions',
@@ -57,7 +57,7 @@
     }
 </style>
 <div id="contact" class="column section">
-    <h3 class="center">Tunggu apalagi? Hubungi Kami!</h3>
+    <h3 class="center">Hubungi Kami!</h3>
     <div class="row">
         {#each contact as con}
         <div class="col s12 m6 l4 center flexColumn">
