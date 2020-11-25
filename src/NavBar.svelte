@@ -20,7 +20,7 @@
 	}
 	@media (min-width: 601px) {
 		.imgLogo {
-			max-width: 15vw;
+			max-width: 12vw;
 		}
 	}
 	.imgLogo {
